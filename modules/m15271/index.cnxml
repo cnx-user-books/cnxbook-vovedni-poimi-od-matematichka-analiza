@@ -1,0 +1,803 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title> Апсолутна вредност</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15271</md:content-id>
+  <md:title> Апсолутна вредност</md:title>
+  <md:abstract>Се дефинира апсолутна вредност и нејзини својства.</md:abstract>
+  <md:uuid>f6bbb640-049c-4d7c-80ed-2f38975d11d2</md:uuid>
+</metadata>
+  <content>
+    <section id="id-783558463314">
+      <title>АПСОЛУТНА ВРЕДНОСТ </title>
+      <section id="id-665382150642">
+        <title>Дефиниција. </title>
+        <para id="id7762241"><term>Апсолутна </term><term/><term>вредност</term><term/> или <term>модул</term> на бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a in R} {}</m:annotation></m:semantics></m:math> се означу­ва со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>a</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline a \lline } {}</m:annotation></m:semantics></m:math> и тоа е позитивниот број определен со изразот</para>
+        <para id="id6384571">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="true">{</m:mo>
+                          <m:mtable>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                  <m:mi>,</m:mi>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                    <m:mo stretchy="false">&gt;</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mn>0,</m:mn>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                    <m:mo stretchy="false">=</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>a</m:mi>
+                                  </m:mrow>
+                                  <m:mi>,</m:mi>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                    <m:mo stretchy="false">&lt;</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                          </m:mtable>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \lline a \lline = left lbrace  matrix {
+a,~a&gt;0 {} ##
+0,~a=0 {} ##
+ - a,~a&lt;0 "." 
+}  right none } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id12746202">
+          <term/>
+        </para>
+      </section>
+    </section>
+    <section id="id-767598275114">
+      
+      <para id="id3470558">Од дефиницијата за апсолутна вредност следува дека секогаш 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>a</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline a \lline  &gt;= 0 "." } {}</m:annotation></m:semantics></m:math> и го претставува растојанието на бројот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>a</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> до нулата на бројната оска.</para><section id="id-66220760889">
+        <title>Пример. </title>
+        <para id="id9578174">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mtext>25</m:mtext>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>25</m:mtext>
+                      </m:mrow>
+                      <m:mi>;</m:mi>
+                      <m:mi/>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mi>;</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \lline "25" \lline ="25";~ \lline 0 \lline =0;~ \lline  - 6 \lline = -  \(  - 6 \) =6 "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5821845">За апсолутна вредност важат следните релации:</para>
+        <para id="id8827004"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">⋅</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">∣</m:mo></m:mrow><m:mi>a</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">⋅</m:mo><m:mo stretchy="false">∣</m:mo></m:mrow><m:mi>b</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline a cdot b \lline = \lline a \lline  cdot  \lline b \lline } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id8795435">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mrow>
+                            <m:mi/>
+                            <m:mfrac>
+                              <m:mi>a</m:mi>
+                              <m:mi>b</m:mi>
+                            </m:mfrac>
+                            <m:mi/>
+                          </m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mi>a</m:mi>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mi>b</m:mi>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>b</m:mi>
+                        <m:mo stretchy="false">≠</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ lline ` {  {a}  over  {b} } ` rline = {  { \lline a \lline }  over  { \lline b \lline } } ,~ \( b &lt;&gt; 0 \) ,} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id3617630">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>b</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mo stretchy="false">∣</m:mo>
+                      </m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">∣</m:mo>
+                      </m:mrow>
+                      <m:mi>b</m:mi>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \lline a+b \lline  &lt;=  \lline a \lline + \lline b \lline  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id4856454">Релацијата </para>
+        <para id="id7456440">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \lline x \lline  &lt;= a} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id11197202">означува дека</para>
+        <para id="id5531969">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">≤</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ - a &lt;= x &lt;= a "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10203359">Согласно на претходната релација, релацијата </para>
+        <para id="id8346821">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>p</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \lline x - p \lline  &lt;= a} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id3510958">ќе означува дека </para>
+        <para id="id6384404">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">≤</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>p</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                      <m:mi>,</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ - a &lt;= x - p &lt;= a,} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id7685535">односно </para>
+        <para id="id4180288">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>p</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">≤</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p - a &lt;= x &lt;= p+a "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </section>
+      <section id="id-118548517016">
+        <title>Задача.</title>
+        <para id="id7683425">Да се најдат решенијата на неравенката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">≥</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x rSup { size 8{3} }  - 1 \lline  &gt;= 1 - x "." } {}</m:annotation></m:semantics></m:math></para>
+      </section>
+      <section id="id-313851351885">
+        <title>Решение.</title>
+        <para id="id4057184">Користејќи го разложувањето</para><para id="id9598859"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{3} }  - 1= \( x - 1 \)  \( x rSup { size 8{2} } +x+1 \) } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0,</m:mn></m:mrow><m:mi/><m:mo stretchy="false">∀</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +x+1&gt;0,`` forall x in R,} {}</m:annotation></m:semantics></m:math></para>
+        <para id="eip-193">следува дека</para><para id="id3750306">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mo stretchy="false">∣</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \lline x rSup { size 8{3} }  - 1 \lline = \lline x - 1 \lline  \( x rSup { size 8{2} } +x+1 \)  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10714886">Со примена на дефиницијата за апсолутна вредност се добива </para>
+        <para id="id3624947">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="true">{</m:mo>
+                          <m:mtable>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>1,</m:mn>
+                                  </m:mrow>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">&gt;</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mn>0,</m:mn>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">=</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1,</m:mn>
+                                  </m:mrow>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">&lt;</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                          </m:mtable>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \lline x - 1 \lline = left lbrace  matrix {
+x - 1,``x&gt;1 {} ##
+0,``x=1 {} ##
+ - x+1,``x&lt;1
+}  right none } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id12216872">и затоа неравенката ќе се разгледува во следните два интервали 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } = \(  -  infinity ,1 \) } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mrow><m:mn>1,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } = \[ 1,+ infinity  \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <list id="id8219892" list-type="bulleted"><item>Најпрво нека  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in I rSub { size 8{1} } = \(  -  infinity ,1 \) } {}</m:annotation></m:semantics></m:math>.</item>
+        </list>
+        <para id="id10206988">Во овој интервал 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x - 1 \lline = - x+1=1 - x&gt;0} {}</m:annotation></m:semantics></m:math> и неравнката ќе го има обликот</para>
+        <para id="id7629887">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">≥</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \(  - x+1 \)  \( x rSup { size 8{2} } +x+1 \)  &gt;= 1 - x} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id3453473">и по кратење со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 - x &lt;&gt; 0} {}</m:annotation></m:semantics></m:math> се добива неравенството</para>
+        <para id="id5567857"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} }  - x &gt;= 0} {}</m:annotation></m:semantics></m:math> кое е точно за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">]</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mrow><m:mn>0,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mo stretchy="false">∩</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">]</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mn>0,1</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  lbrace  \(  -  infinity , - 1 \]  union  \[ 0,+ infinity  \)  rbrace  intersection I rSub { size 8{1} } = \(  -  infinity , - 1 \]  union  \[ 0,1 \)  "." } {}</m:annotation></m:semantics></m:math></para>
+        <list id="id3545005" list-type="bulleted">
+          <item>Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mrow><m:mn>1,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in I rSub { size 8{2} } = \[ 1,+ infinity  \)  "." } {}</m:annotation></m:semantics></m:math></item>
+        </list>
+        <para id="id3511002">Во овој интервал 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x - 1 \lline =x - 1} {}</m:annotation></m:semantics></m:math> и неравнката ќе го има обликот</para>
+        <para id="id3497132">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">≥</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \( x - 1 \)  \( x rSup { size 8{2} } +x+1 \)  &gt;= 1 - x} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id11556760">и по аналогна постапка како во првиот интервал се добива неравенството</para>
+        <para id="id3533919">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">≥</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +x+2 &gt;= 0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id12752223">кое е секогаш точно, па затоа решението во овој интервал ќе биде целиот интервал, односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mrow><m:mn>1,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \[ 1,+ infinity  \)  "." } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id12781004">Следува дека решението на задачата ќе биде унија од решенијата, односно</para>
+        <para id="id12269570">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">∈</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mo stretchy="false">∞</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">]</m:mo>
+                        <m:mo stretchy="false">∪</m:mo>
+                        <m:mo stretchy="false">[</m:mo>
+                      </m:mrow>
+                      <m:mn>0,1</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">∪</m:mo>
+                        <m:mo stretchy="false">[</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>1,</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mo stretchy="false">∞</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">]</m:mo>
+                        <m:mo stretchy="false">∪</m:mo>
+                        <m:mo stretchy="false">[</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>0,</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x in  \(  -  infinity , - 1 \]  union  \[ 0,1 \)  union  \[ 1,+ infinity  \) = \(  -  infinity , - 1 \]  union  \[ 0,+ infinity  \)  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </section>
+    </section>
+  </content>
+</document>

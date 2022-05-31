@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title> Цели броеви</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>4392df01-87d9-4412-bf89-492f388a363a</md:uuid>
+</metadata>
+  <content>
+    <section id="id-0221089504137">
+      <title>МНОЖЕСТВО ЦЕЛИ БРОЕВИ</title>
+      <para id="id10372872">Со извршување на операцијата одземање, разликата на два природни броја секогаш не мора да биде природен број. Ако од природен број се одземе поголем или еднаков број, резултатот нема да биде природен број. Затоа е потребно да се изврши проширување на множеството природни броеви со додавање на бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>0</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0`} {}</m:annotation></m:semantics></m:math> (нула) и негативните природни броеви: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1, - 2, - 3, "."  "."  "." } {}</m:annotation></m:semantics></m:math> . Сите овие броеви го сочинуваат мно­жес­тво­то цели броеви кое се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Z</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z} {}</m:annotation></m:semantics></m:math>. Ако целите позитивни броеви (природните броеви) се означат со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>, а целите негативни броеви со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math>, тогаш</para>
+      <para id="id4198695"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">∪</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mn>0</m:mn><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mo stretchy="false">∪</m:mo><m:msup><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z=Z rSup { size 8{ - {}} }  union  lbrace 0 rbrace  union Z rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id9914922">Множеството цели броеви нема ни најмал ни најголем елемент и тоа е неограничено и од лево и од десно. Тоа е исто така преброиво како и множеството на природни броеви, бидејќи неговите елементи може да се пребројат, односно да се подредат во низа по големина на следниов начин:</para>
+      <para id="id3729570">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>0,1,</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1,2,</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2,3,</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>3,4,</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>4,5,</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>5,</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{0,1, - 1,2, - 2,3, - 3,4, - 4,5, - 5, "."  "."  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7677072">Меѓу два последователни цели броја <emphasis>k</emphasis> и (<emphasis>k</emphasis><emphasis/>+1) не постои друг цел број.</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,289 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>  Интервали</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15272</md:content-id>
+  <md:title>  Интервали</md:title>
+  <md:abstract>Се дефинира поимот за интервал и се определуваат видови на интервали.</md:abstract>
+  <md:uuid>1fbe10b9-6971-4c87-ba59-3e29f501aca2</md:uuid>
+</metadata>
+  <content>
+    <section id="id-999589809989">
+      <title>ИНТЕРВАЛИ</title>
+      <para id="id6805837">Поимот интервал се воведува со следната</para>
+      <section id="id-645727376387">
+        <title>Дефиниција.</title>
+        <para id="id6783152">Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a,b in R} {}</m:annotation></m:semantics></m:math> и нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>b</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&lt;b "." } {}</m:annotation></m:semantics></m:math> Множеството од сите броеви <emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in R} {}</m:annotation></m:semantics></m:math></emphasis><emphasis/>кои ја задоволуваат релацијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a &lt;= x &lt;= b} {}</m:annotation></m:semantics></m:math> се нарекува <term>интервал</term><term/> и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[ a,b \]  "." } {}</m:annotation></m:semantics></m:math></para><para id="id6775906">
+          <term/>
+        </para>
+      </section>
+    </section>
+    <section id="id-825654609394">
+      
+      <para id="id6752218">Интервалот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[ a,b \] } {}</m:annotation></m:semantics></m:math> се нарекува <term>затворен интервал</term> или <term>сегмент</term> бидејќи ги содржи и неговите крајни вредности 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>. </para>
+      <para id="id6686236">Ако крајните вредности 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> не му припаѓаат на интервалот т.е.</para>
+      <para id="id6785555"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&lt;x&lt;b} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id6853723">тогаш тој се нарекува <term>отворен интервал</term> и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi/><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,`b \) } {}</m:annotation></m:semantics></m:math>. </para>
+      <para id="id6926415">Постојат и полуотворени и полузатворени интервали. </para>
+      <para id="id6762820">Интерва­лот </para>
+      <para id="id6686530">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">≤</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{a&lt;x &lt;= b} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id6798544">е полуотворен од лево и полузатворен од десно и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi/><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,`b \] } {}</m:annotation></m:semantics></m:math>, додека интервалот</para>
+      <para id="id6885477">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">≤</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{a &lt;= x&lt;b} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7547713">е полузатворен од лево и полуотворен од десно и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi/><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[ a,`b \) } {}</m:annotation></m:semantics></m:math>. </para>
+      <para id="id6763769">Сите погоре наведени интервали се ограничени.</para>
+      <para id="id6763782">Бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b - a} {}</m:annotation></m:semantics></m:math> се нарекува <term>должина на интервалот</term>. </para>
+      <para id="id6921499">Постојат и неогра­ничени интервали, а такви се следните интервали:</para>
+      <para id="id6921505">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">≤</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mtext>&lt;+</m:mtext>
+                    <m:mo stretchy="false">∞</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{a &lt;= x"&lt;+" infinity } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7529113">или </para>
+      <para id="id7529125">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mrow>
+                      <m:mi/>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mo stretchy="false">∞</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \[ a,`+ infinity  \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id6857481">кој ги содржи сите реални броеви поголеми или еднакви на бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и овој интервал е затворен од лево а отворен од десно. </para>
+      <para id="id6857542">Отворениот интервал кој ги содржи реалните броеви поголеми од бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> се означува со </para>
+      <para id="id7548095">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mtext>&lt;+</m:mtext>
+                    <m:mo stretchy="false">∞</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{a&lt;x"&lt;+" infinity } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7548155">или </para>
+      <para id="id7548167">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mrow>
+                      <m:mi>,</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mo stretchy="false">∞</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \( a,+ infinity  \)  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5703858">Аналогно на горенаведените интервали, интервалот кој ги содржи сите рални броеви помали или еднакви од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> се означува со </para>
+      <para id="id6832332">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">≤</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ -  infinity &lt;x &lt;= b} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id6832400">или </para>
+      <para id="id6832412"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity ,b \] } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id6843628">додека интервалот со стриктно помали броеви од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> се означува со </para>
+      <para id="id6925370">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ -  infinity &lt;x&lt;b} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id6925438">или </para>
+      <para id="id6857333"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity ,b \) } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id6857406">Множеството од сите реални броеви се претставува со </para>
+      <para id="id6857412"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mtext>&lt;+</m:mtext><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  infinity &lt;x"&lt;+" infinity } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id6858320">односно </para>
+      <para id="id6858332">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mo stretchy="false">∞</m:mo>
+                    </m:mrow>
+                    <m:mi/>
+                    <m:mi>,</m:mi>
+                    <m:mrow>
+                      <m:mi/>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mo stretchy="false">∞</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity `,`+ infinity  \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id6883898">и претставува отворен интервал и од лево и од десно и нему му кореспондираат сите точки од бројната права. </para>
+      </section>
+  </content>
+</document>

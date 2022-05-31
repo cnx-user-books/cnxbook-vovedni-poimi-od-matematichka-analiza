@@ -1,0 +1,244 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title> Рационални броеви</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15182</md:content-id>
+  <md:title> Рационални броеви</md:title>
+  <md:abstract>Се воведува множеството од рационални броеви.</md:abstract>
+  <md:uuid>db79b78f-1fad-4fab-8dca-cb7af819d5c5</md:uuid>
+</metadata>
+
+<content>
+    <section id="id8749316">
+      <title>МНОЖЕСТВО РАЦИОНАЛНИ БРОЕВИ</title>
+      <para id="id1170034193919">Операцијата делење со цел број различен од нула не секогаш може да се изврши во множеството цели броеви, односно количникот на два цели броја не мора да е цел број. Затоа се укажува потребата од проширување на множеството цели броеви во множество рационални броеви кое во себе го содржи множеството цели броеви како вистинско подмножество. Имено, секој цел број може да се запише како дропка со именител 1. На пр. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>6</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3= {  {3}  over  {1} } ,``3= {  {6}  over  {2} } } {}</m:annotation></m:semantics></m:math> и т.н. Рационалните броеви може да се претстават како количник на два цели броја, при што бројот во именителот треба да се различен од нула.</para>
+      <para id="id1170010923710"><term>М</term><term>ножеството</term><term> раци</term><term>­</term><term>о</term><term>­</term><term>нал</term><term>­</term><term>ни</term><term>­</term><term> броеви </term>се запишува со</para>
+      <para id="id1170018327882">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>Q</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfenced open="{" close="}">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi>p</m:mi>
+                            <m:mi>q</m:mi>
+                          </m:mfrac>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mi>p</m:mi>
+                          <m:mi>,</m:mi>
+                          <m:mi/>
+                          <m:mrow>
+                            <m:mi>q</m:mi>
+                            <m:mo stretchy="false">∈</m:mo>
+                            <m:mi>Z</m:mi>
+                          </m:mrow>
+                          <m:mi>,</m:mi>
+                          <m:mi/>
+                          <m:mrow>
+                            <m:mi>q</m:mi>
+                            <m:mo stretchy="false">≠</m:mo>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mfenced>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Q= left lbrace  {  {p}  over  {q} }  \lline p,``q in Z,``q &lt;&gt; 0 right rbrace  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1170028766445">Ова множество е секаде <term>густо</term> множество, бидејќи меѓу два произволни рационални броеви има бесконечно многу рационални броеви. За да го покажеме ова тврдење, ќе докажеме дека меѓу рационалните броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>се наоѓа бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {a+b}  over  {2} }  "." } {}</m:annotation></m:semantics></m:math> Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&lt;b} {}</m:annotation></m:semantics></m:math> и ако на двете страни од ова неравенство се додаде бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> се добива</para>
+      <para id="id1170019476294"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>2a</m:mn>
+                            <m:mo stretchy="false">&lt;</m:mo>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo stretchy="false">&lt;</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>b</m:mi>
+                                </m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{2a&lt;a+b}  {} # 
+ size 12{a&lt; {  {a+b}  over  {2} }  "." }  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="id1170021948532">Аналогно, ако на двете страни од неравенставото 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&lt;b} {}</m:annotation></m:semantics></m:math> со додаде бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> се добива</para>
+      <para id="id1170026199587">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">&lt;</m:mo>
+                            <m:mn>2b</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>b</m:mi>
+                                </m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                              <m:mo stretchy="false">&lt;</m:mo>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{a+b&lt;2b}  {} # 
+ size 12{ {  {a+b}  over  {2} } &lt;b "." }  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1170013667059">Од овие две неравенства следува дека </para>
+      <para id="id2407206">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{a&lt; {  {a+b}  over  {2} } &lt;b} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1170022070651">што означува дека меѓу два рационални броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> се наоѓа и рационалниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {a+b}  over  {2} }  "." } {}</m:annotation></m:semantics></m:math>Со истата постапка, ако на неравенството 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&lt;b} {}</m:annotation></m:semantics></m:math> се додава бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2a</m:mn></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2a} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2b</m:mn></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2b} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>na</m:mtext></m:mrow></m:mstyle><m:mi>,</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "na", \( n in N \) } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nb</m:mtext></m:mrow></m:mstyle><m:mi>,</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "nb", \( n in N \) } {}</m:annotation></m:semantics></m:math> се добива низа броеви меѓу броевите 
+меѓу 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math><emphasis>. </emphasis></para><para id="id1170050113336">Множеството 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Q</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/>исто како и множеството на природни броеви има моќ на <term>преброиво</term> мно­жес­тво бидејќи рационалните броеви може да се подредат во низа во која најпрво се запишуваат рационалните броеви чии што збир на цифри од именителот и броителот изнесува 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`} {}</m:annotation></m:semantics></m:math>, потоа оние со збир 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2`} {}</m:annotation></m:semantics></m:math>, па 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3} {}</m:annotation></m:semantics></m:math> и т.н. при што се добива низата претставена со следнава шема:</para>
+      <para id="id1170037162531"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>0</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {0}  over  {1} } } {}</m:annotation></m:semantics></m:math>, </para>
+      <para id="id1170020156088"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>0</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>1</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {0}  over  {2} } ,` {  {1}  over  {1} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id1170028391957"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>0</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>2</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {0}  over  {3} } ,` {  {1}  over  {2} } ,` {  {2}  over  {1} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id1865121"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>0</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>2</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>3</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {0}  over  {4} } ,` {  {1}  over  {3} } ,` {  {2}  over  {2} } ,` {  {3}  over  {1} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id1170047132113"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>0</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>,</m:mi><m:mfrac><m:mn>4</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {0}  over  {5} } ,` {  {1}  over  {4} } ,` {  {2}  over  {3} } ,` {  {3}  over  {2} } , {  {4}  over  {1} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id1170024430261"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">…</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ dotslow } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id1170021835385">Како што се гледа од горенаведената шема, во наведената низа се запишани само позитивните рационални броеви, што нималку не ја намалува општоста, бидејќи до секој позитивен рационален број може да се додаде и рационалиот број со негативен предзнак. Се забележува дека секој рационален број во оваа низа се повторува бесконечен број пати, но тоа не е битно, важно е дека рационалните броеви на овој начин се подредени во низа, а со тоа нивното множество има моќ на преброиво. За досега наведените множества од броеви важи </para>
+      <para id="id1170043555773"><emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">⊂</m:mo><m:mi>Z</m:mi></m:mrow><m:mo stretchy="false">⊂</m:mo><m:mi>Q</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N subset Z subset Q} {}</m:annotation></m:semantics></m:math></emphasis>,</para>
+      <para id="id1170029283810">што јасно го покажува начинот на кој се врши проширувањето на множествата броеви.</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,26 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10475</md:content-id>
+    <md:title>Воведни поими од математичка анализа</md:title>
+    <md:language>mk</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>d8cc28f0-7c3f-4ed7-ad83-c0ab21b407ac</md:uuid>
+<md:slug>vovedni-poimi-od-matematichka-analiza</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m15116"/>
+    <col:module document="m15118"/>
+    <col:module document="m15119"/>
+    <col:module document="m15179"/>
+    <col:module document="m15180"/>
+    <col:module document="m15181"/>
+    <col:module document="m15182"/>
+    <col:module document="m15183"/>
+    <col:module document="m15184"/>
+    <col:module document="m15185"/>
+    <col:module document="m15270"/>
+    <col:module document="m15271"/>
+    <col:module document="m15272"/>
+    <col:module document="m15273"/>
+  </col:content>
+</col:collection>

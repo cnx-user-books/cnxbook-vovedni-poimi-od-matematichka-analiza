@@ -1,0 +1,103 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title> Природни броеви</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15180</md:content-id>
+  <md:title> Природни броеви</md:title>
+  <md:abstract>Се воведува множеството од прородни броеви</md:abstract>
+  <md:uuid>1ed4e596-099b-4b43-8fea-e447a4461533</md:uuid>
+</metadata>
+  <content>
+    <section id="id-507152427883">
+      <title>МНОЖЕСТВО ПРИРОДНИ БРОЕВИ</title>
+      <para id="id48004701">Бро­евите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,2,3,</m:mn><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,2,3, "."  "."  "." } {}</m:annotation></m:semantics></m:math> т.е. множеството</para>
+      <para id="id49396039">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>N</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">{</m:mo>
+                      <m:mrow>
+                        <m:mn>1,2,3,4,</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mi>,</m:mi>
+                        <m:mi>k</m:mi>
+                        <m:mi>,</m:mi>
+                        <m:mrow>
+                          <m:mi>k</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1,</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mo stretchy="false">}</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{N= lbrace 1,2,3,4, "."  "."  "." ,k,k+1, "."  "."  "."  rbrace } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id47305533">се нарекува <term>множество природни броеви.</term></para>
+      <para id="id45651420">Поимот за природен број се смета за интуитивно јасен и тоа се броеви со кои човекот се запознава најпрво во животот по природен пат, преку најед­но­ставно броење и пребројување на објектите од својата околина. Во множеството на природни броеви постои најмал елемент, тоа е бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`} {}</m:annotation></m:semantics></m:math>, додека не постои најголем па затоа и се вели дека тоа е ограничено од лево а неогра­ни­чено од десно. Меѓу два последователни природни броја <emphasis>k</emphasis> и (<emphasis>k</emphasis>+1) не постои друг природен број. Во ова множество може да се извршуваат операциите собирање, множење и степенување со природен број, при што резулататот од извршувањето на наведените операции пак ќе биде природен број. </para>
+      <para id="id47306427">Природните броеви можат да бидат <term>парни</term> или <term>непарни</term>. Парните броеви се претставуваат во обликот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2k</m:mn><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,2,3,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2k,` \( k=1,2,3, "."  "."  "."  \) } {}</m:annotation></m:semantics></m:math> и тие го формираат множеството од парни природни броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>2,4,6,8,</m:mn><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mn>2k</m:mn><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 2,4,6,8, "."  "."  "." ,2k, "."  "."  "."  rbrace } {}</m:annotation></m:semantics></m:math>. Непарните природни броеви се претставуваат во обликот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2k</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,2,3,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2k - 1,` \( k=1,2,3, "."  "."  "."  \) } {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2k</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1,</m:mn></m:mrow><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,1,2,3,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2k+1,` \( k=0,1,2,3, "."  "."  "."  \) } {}</m:annotation></m:semantics></m:math> и го формираат множеството од непарни природни броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>1,3,5,7,</m:mn><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mrow><m:mn>2k</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 1,3,5,7, "."  "."  "." ,2k - 1, "."  "."  "."  rbrace  "." } {}</m:annotation></m:semantics></m:math></para>
+      <section id="id-930945639413">
+        <title>Задача </title>
+        <para id="id48039193">Квадратот на парен број е паран број, а квадратот на непарен број е непарeн.</para>
+      </section>
+      <section id="id-139533055959">
+        <title>Доказ</title>
+        <para id="id48071759">Ако бројот е парен, тој се запишува како 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2k</m:mn></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2k} {}</m:annotation></m:semantics></m:math> и ако го квадрираме, тогаш и неговиот квадрат е парен број бидејќи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2k</m:mn><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mn>4k</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2p</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 2k \)  rSup { size 8{2} } =4k rSup { size 8{2} } =2p} {}</m:annotation></m:semantics></m:math>, каде 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>2k</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p=2k rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. </para>
+        <para id="id47693822">Исто така и за квадратот на непарен број се покажува дека е непарен број бидејќи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2k</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mn>4k</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>4k</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2m</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 2k+1 \)  rSup { size 8{2} } =4k rSup { size 8{2} } +4k+1=2m+1} {}</m:annotation></m:semantics></m:math>, каде 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2k</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=2k \( k+1 \)  "." } {}</m:annotation></m:semantics></m:math></para>
+      </section>
+    </section>
+    <section id="id-101092763243">
+      
+      <para id="id48066956">
+        <term/>
+      </para>
+      <para id="id48066962">
+        <term/>
+      </para>
+      <para id="id48001308">За можеството природни броеви се вели дека е <term>преброиво</term> множество и преброивоста е мерка за неговата моќ или негов кардинален број. Секое множество еквивалентно со него исто така е пребро­иво множество. Од природните броеви може да се формираат бесконечно многу подмножества кои се нарекуваат низи а некои од нив на пример се:</para>
+      <para id="id47553379">низа од сите природни броеви: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,2,3,4,5,</m:mn><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,2,3,4,5, "."  "."  "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id48006076">низа од непарни природни броеви: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,3,5,7,9,</m:mn><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,3,5,7,9, "."  "."  "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id48003439">низа од парни прородни броеви:  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2,4,6,8,</m:mn><m:mtext>10</m:mtext><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2,4,6,8,"10", "."  "."  "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id47303819">Бидејќи преброивоста на множеството ја искажува можноста неговите елементи да се подредат по големина во низа, затоа може да се каже дека природни броеви има исто толку многу колку што има парни или пак непарни природни броеви. Ова тврдење се темели на фактот дека сите елементи на овие множества се подредени по големина во низа, а тоа овозможува нивно пребројување. Од овој пример се гледа дека кај бесконечните множества не мора да важи очигледниот став дека “целото е поголемо од својот дел”, став кој е точен само за конечните множества. Кај конечните множества кардиналниот број е еднаков со бројот на неговите елементи.</para>
+      <para id="id47303827">Природните броеви може да се поделат на <term>прости</term> и <term>сложени</term>. Простите броеви се делат сами со себе и со единицата (триви­јални делители), додека сложените имаат и други делители различни од тривијалните. Бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`} {}</m:annotation></m:semantics></m:math>не е ни прост ни сложен, додека најмалиот прост број е 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." `} {}</m:annotation></m:semantics></m:math> Множеството на прости броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>2,</m:mn><m:mi/><m:mn>3,</m:mn><m:mi/><m:mn>5,</m:mn><m:mi/><m:mn>7,</m:mn><m:mi/><m:mtext>11</m:mtext><m:mi>,</m:mi><m:mi/><m:mtext>13</m:mtext><m:mi>,</m:mi><m:mi/><m:mtext>17</m:mtext><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 2,`3,`5,`7,`"11",`"13",`"17",` "."  "."  "."  rbrace } {}</m:annotation></m:semantics></m:math> е бесконечно какво што е множеството на сложени броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>4,</m:mn><m:mi/><m:mn>6,</m:mn><m:mi/><m:mn>8,</m:mn><m:mi/><m:mn>9,</m:mn><m:mi/><m:mtext>10</m:mtext><m:mi>,</m:mi><m:mi/><m:mtext>12</m:mtext><m:mi>,</m:mi><m:mi/><m:mtext>14</m:mtext><m:mi>,</m:mi><m:mi/><m:mtext>15</m:mtext><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 4,`6,`8,`9,`"10",`"12",`"14",`"15",` "."  "."  "."  rbrace  "." } {}</m:annotation></m:semantics></m:math></para>
+      <section id="id-706763161543">
+        <title>Една занимливост</title>
+        <para id="id47938472">Љубителите на математиката се одушевени - со помош на грид-мрежа која се состоела од 240.000 умрежени компјутери, истражувачите дошле до најголемиот до сега (2009 година) познат прост број. Станува збор за бројот 2 на степен  224036583-та минус 1. Овој број има огромен број на цифри и е за околу милион цифри поголем од последниот откриен најголем прост број. </para></section>
+    </section>
+  </content>
+</document>

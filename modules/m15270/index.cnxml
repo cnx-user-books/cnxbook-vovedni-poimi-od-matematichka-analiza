@@ -1,0 +1,284 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Бројна оска</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15270</md:content-id>
+  <md:title>Бројна оска</md:title>
+  <md:abstract>Се воведува кореспонденција на реалните броеви со точки од бројната права</md:abstract>
+  <md:uuid>cc582ef6-1a69-4dcf-a2cb-3f03eb5e7f82</md:uuid>
+</metadata>
+  <content>
+    <section id="id-80746216432">
+      <title> БРОЈНА ОСКА </title><para id="id4054624">Нека е дадена права <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> и нека на неа се одбере точка <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>O</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> која се зема за почетна точка на една отсечка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mtext>OA</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"OA"}} } {}</m:annotation></m:semantics></m:math> чија должина е единична. На точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>A</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> и се придружува природниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`} {}</m:annotation></m:semantics></m:math>, а на точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>О</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> целиот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>0</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0`} {}</m:annotation></m:semantics></m:math>. Потоа со нанесување на отсечка­та 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OA</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { bold "OA"}} } {}</m:annotation></m:semantics></m:math> десно по правата <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> се врши придру­жу­вање на природните броеви со точки од правата, а со нанесу­вање на отсечката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OA</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { bold "OA"}} } {}</m:annotation></m:semantics></m:math> лево од точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>O</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>, на целите негативни броеви им се придру­жуваат исто така точки од правата (Сл. 1.1). Со ова придру­жу­вање се врши графичко претставување на целите броеви на правата <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>.</para><para id="id5959329">
+        <table id="id5360551" summary="">
+          <tgroup cols="1">
+            <colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <media id="id1165908567676" alt=""><image src="../../media/graphics1-78be.png" mime-type="image/png"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>Слика 1.1 Придружување на целите броеви со точки од правата l</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </para>
+      <para id="id5932439">И на рационалните броеви им се придружуваат точки од правата <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> со следната постапка: рационалниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">/</m:mo><m:mi>q</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=p/q} {}</m:annotation></m:semantics></m:math> се запишува преку пропорцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mi>:</m:mi><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow><m:mi>:</m:mi><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p:q=x:1} {}</m:annotation></m:semantics></m:math>, a низ точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>O</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> се повлеку­ва произволна права на која се нанесуваат отсечките со должини <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> и <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>. Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OC</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= {overline  { bold "OC"}} } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OB</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q= {overline  { bold "OB"}} } {}</m:annotation></m:semantics></m:math>. Точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> се сврзува со точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>A</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> која е на единично растојание од <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>O</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> и паралелно на оваа права се повлекува отсечка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { bold "CM"}} } {}</m:annotation></m:semantics></m:math>.</para><table id="id5996337" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id1165908567474" alt=""><image src="../../media/graphics2-8881.png" mime-type="image/png"/></media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 1.2 Придружување на рационален број со точка од правата l</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id3595554">Од сличноста на триаголниците 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Δ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OAB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ ital "OAB"} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Δ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OMC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ ital "OMC"} {}</m:annotation></m:semantics></m:math> следува пропорционалност на нивните страни</para><para id="id5175846"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OC</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover><m:mi>:</m:mi><m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OB</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OM</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow><m:mi>:</m:mi><m:mover accent="true"><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OA</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { bold "OC"}} : {overline  { bold "OB"}} = {overline  { bold "OM"}} : {overline  { ital "OA"}} } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id5461649">односно изразено преку вредностите на должините на отсечките </para>
+      <para id="id4772621"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mi>:</m:mi><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow><m:mi>:</m:mi><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p:q=x:1} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id4585845">од каде следува дека отсечката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>OM</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { bold "OM"}} } {}</m:annotation></m:semantics></m:math> за должина ја има вредноста на рационалниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">/</m:mo><m:mi>q</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=p/q} {}</m:annotation></m:semantics></m:math>, односно</para><para id="id5587380">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mover accent="true">
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>OM</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo>¯</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x= {overline  { ital "OM"}} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5112076">и на рационалниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">/</m:mo><m:mi>q</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p/q} {}</m:annotation></m:semantics></m:math> му се придружува точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>М</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> од правата <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> (Сл. 1.2). Оваа постапка го покажува начинот со кој еднозначно се врши придружување на рационалните броеви и точките од правата <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>. Ирационалните броеви, бидејќи имаат бесконечен децимален запис, се нанесуваат на правата <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> со заокружување на нивната вредност до некоја задоволителна точност, односно бројот се заокружува до одредено децимално место со што тој се смета за рационален број. Со ваквата постапка на сите реални броеви еднозначно им се доделуваат точки од правата <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> и се дава следната</para><section id="id-552325111384">
+        <title>Дефиниција. </title>
+        <para id="id3313098">Права на која е означена почетна точка, единична должина и на секоја нејзина точка еднозначно и е придружен реален број се нарекува <term>бројнa </term><term/><term>права </term><term/>или <term>бројна </term><term/><term>оска</term>.</para></section><section id="eip-857"><title>ЗАКЛУЧОК</title><para id="eip-65">
+Секој реален број може да се поистовети со точка од бројната права.
+</para></section>
+    </section>
+  </content>
+</document>

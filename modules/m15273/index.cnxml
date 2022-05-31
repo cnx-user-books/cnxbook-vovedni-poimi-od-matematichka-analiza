@@ -1,0 +1,243 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title> Околина на точка</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15273</md:content-id>
+  <md:title> Околина на точка</md:title>
+  <md:abstract>На бројната оска се воведува поимот за околина на точка</md:abstract>
+  <md:uuid>3f15139c-8b07-4bfd-b7c7-71b0c6f3a62d</md:uuid>
+</metadata>
+  <content>
+    <section id="id-486062138173">
+      <title>ОКОЛИНА НА ТОЧКА</title>
+      <para id="id8999747">Нека на бројната права <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>l</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     на точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>A</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     и кореспондира реалниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε&gt;0} {}</m:annotation></m:semantics></m:math> е произволен позитивен број. </para><section id="id-907881595314">
+        <title>Дефиниција. </title>
+        <para id="id8159485">Секој отворен интервал 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">−</m:mo><m:mi>ε</m:mi></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ε</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a - ε,`a+ε \) } {}</m:annotation></m:semantics></m:math>се нарекува 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε - {}} {}</m:annotation></m:semantics></m:math><term>околина</term> на точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>A</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , односно
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε - {}} {}</m:annotation></m:semantics></m:math>околина на бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>ε</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V \( a,ε \) } {}</m:annotation></m:semantics></m:math>.</para></section>
+    </section>
+    <section id="id-0371983473102">
+      
+      <para id="id7456918">Бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>  се нарекува <term>центар </term><term/><term>на </term><term/><term>околината</term> а бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε - {}} {}</m:annotation></m:semantics></m:math><term>радиус </term><term/><term>на</term><term/><term> околината</term>. На Сл. 1.3 е претставен интервал на бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> (точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>A</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ) со радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>ε</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>.</para><table id="id5175527" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id8490854" alt=""><image src="../../media/graphics1-3973.png" mime-type="image/png"/></media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 1.3 Околина на точката А</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id4297496">Ако за секој број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">−</m:mo><m:mi>ε</m:mi></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ε</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \( a - ε,`a+ε \) } {}</m:annotation></m:semantics></m:math>, тогаш важи</para><para id="id9260870">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>ε</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>ε</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{a - ε&lt;x&lt;a+ε} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id10949982">односно </para>
+      <para id="id10949987">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>ε</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mi>ε</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ - ε&lt;x - a&lt;ε} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id10656320">или</para>
+      <para id="id10656325">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>a</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>ε</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline x - a \lline &lt;ε} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5189898">и се вели дека бројот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     се наоѓа во 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε - {}} {}</m:annotation></m:semantics></m:math>околина на бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, односно точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>M</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     на која и кореспондира реалниот број <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     се наоѓа во 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε - {}} {}</m:annotation></m:semantics></m:math>околина на точката <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>A</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     (Сл. 1.4).</para><table id="id9686049" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id1169747157317" alt=""><image src="../../media/graphics2-2d90.png" mime-type="image/png"/></media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 1.4 Припадност на точката М во околина на точката А</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </content>
+</document>

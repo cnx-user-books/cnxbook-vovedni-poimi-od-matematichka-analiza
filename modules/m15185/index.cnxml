@@ -1,0 +1,912 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title> Децимални дропки</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15185</md:content-id>
+  <md:title> Децимални дропки</md:title>
+  <md:abstract>Претворање на реален број во дропка и обратно.</md:abstract>
+  <md:uuid>3202272c-629f-4e05-b8b0-960d080355e0</md:uuid>
+</metadata>
+  <content>
+    <section id="id-925335864557">
+      <title>ПРЕТСТАВУВАЊЕ НА РЕАЛНИТЕ БРОЕВИ СО ДЕЦИМАЛНИ ДРОПКИ</title>
+      <para id="id7138583">Нека е даден реален број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;0} {}</m:annotation></m:semantics></m:math> кој не е цел број. Ако <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> може да се напише како конечна децимална дропка, односно</para><para id="id7618661"/>
+      <para id="id7598387">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x=a rSub { size 8{0} } ,a rSub { size 8{1} } a rSub { size 8{2} }  "."  "."  "." a rSub { size 8{n} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7242037">тогаш</para>
+      <para id="id7242041"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>,</m:mi><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a rSub { size 8{0} } ,a rSub { size 8{1} } a rSub { size 8{2} }  "."  "."  "." a rSub { size 8{n} } = {  {a rSub { size 8{0} } a rSub { size 8{1} } a rSub { size 8{2} }  "."  "."  "." a rSub { size 8{n} } }  over  {"10" rSup { size 8{n} } } } = {  {p}  over  {q} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id6062784">од каде следува дека секој реален број запишан со конечна децимална дропка е рационален број и обратно. </para><para id="id7750214">Сега нека претпоставиме дека <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> не може да се напише во конечна децимална дропка. Тогаш согурно <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> се наоѓа меѓу два последователни цели броја, односно постои цел број <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>C</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> таков што </para><para id="id7163593">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>C</m:mi>
+                        <m:mo stretchy="false">&lt;</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mrow>
+                        <m:mi>C</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{C&lt;x&lt;C+1 "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7204970">Нека интервалот меѓу <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>C</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> и <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>C</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>+1 се подели на десет дела со броевите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>9</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c rSub { size 8{1} } ,`c rSub { size 8{2} } ,`c rSub { size 8{3} } , "."  "."  "." ,c rSub { size 8{9} } } {}</m:annotation></m:semantics></m:math>. Тогаш <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> ќе се најде во еден од овие подинтервали и тоа се запишува со </para><para id="id7668289">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>c</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">&lt;</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>c</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mtext>10</m:mtext>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{C,c rSub { size 8{1} } &lt;x&lt;C,c rSub { size 8{1} } + {  {1}  over  {"10"} }  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id6677849">Со продолжување на постапката се добива</para>
+      <para id="id7617888"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mi>,</m:mi><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mrow><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>C</m:mi></m:mrow><m:mi>,</m:mi><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mrow><m:msub><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>10</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C,c rSub { size 8{1} } c rSub { size 8{2} }  "."  "."  "." c rSub { size 8{n} } &lt;x&lt;C,c rSub { size 8{1} } c rSub { size 8{2} }  "."  "."  "." c rSub { size 8{n} } + {  {1}  over  {"10"} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id7659143">што претставува бесконечна децимална дропка која може да се сумира и таа сума ќе го претставува реалниот број <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>. Ако бројот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math> се поклопи со некој од краевите на претходниот интервал, тогаш ќе важи</para><para id="id7634379">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:msub>
+                      <m:mi>c</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>c</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>c</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">≤</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:msub>
+                      <m:mi>c</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>c</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>c</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mtext>10</m:mtext>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{C,c rSub { size 8{1} } c rSub { size 8{2} }  "."  "."  "." c rSub { size 8{n} }  &lt;= x &lt;= C,c rSub { size 8{1} } c rSub { size 8{2} }  "."  "."  "." c rSub { size 8{n} } + {  {1}  over  {"10"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7946261">и левата и десната страна во последното неравенство ќе бидат еднакви и сите цифри кои следат ќе бидат секогаш нули или деветки кои периодично се повторуваат. </para>
+      <section id="id-272494378583">
+        <title>Пример 1. </title>
+        <para id="id7946283">Бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,</m:mn><m:mrow><m:mtext>234</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>234000</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>2339999</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,"234"=1,"234000" "."  "."  "." =1,"2339999" "."  "."  "." } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id7676032">Навистина, првото равенство 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,</m:mn><m:mrow><m:mtext>234</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>234000</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,"234"=1,"234000" "."  "."  "." } {}</m:annotation></m:semantics></m:math> е очигледно, додека второто равенство ќе се докаже. За таа цел, бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,</m:mn><m:mtext>2339999</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,"2339999" "."  "."  "." } {}</m:annotation></m:semantics></m:math> се запишува како</para><para id="id7603644">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>1,</m:mn>
+                      <m:mtext>2339999</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>1,</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mtext>233</m:mtext>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>0,</m:mn>
+                      </m:mrow>
+                      <m:mtext>0009999</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{1,"2339999" "."  "."  "." =1,"233"+0,"0009999" "."  "."  "." ={}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id7603732"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>233</m:mtext><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>9</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>9</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>9</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">⋯</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {}=1,"233"+ {  {9}  over  {"10" rSup { size 8{4} } } } + {  {9}  over  {"10" rSup { size 8{5} } } } + {  {9}  over  {"10" rSup { size 8{6} } } } + dotsaxis } {}</m:annotation></m:semantics></m:math> = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,</m:mn><m:mrow><m:mtext>233</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>9</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">⋯</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,"233"+9 \(  {  {1}  over  {"10" rSup { size 8{4} } } } + {  {1}  over  {"10" rSup { size 8{5} } } } + {  {1}  over  {"10" rSup { size 8{6} } } } + dotsaxis  \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id6698817">Изразот во заградата е конвергентен геометри­ски ред чии што збир е </para>
+        <para id="id6698824"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">⋯</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mfrac><m:mn>1</m:mn><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>10</m:mtext></m:mfrac></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>9</m:mn><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {"10" rSup { size 8{4} } } } + {  {1}  over  {"10" rSup { size 8{5} } } } + {  {1}  over  {"10" rSup { size 8{6} } } } + dotsaxis = {  {a rSub { size 8{1} } }  over  {1 - q} } = {  { {  {1}  over  {"10" rSup { size 8{4} } } } }  over  {1 -  {  {1}  over  {"10"} } } } = {  {1}  over  {9 cdot "10" rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id6699013">па затоа </para>
+        <para id="id6675566">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>1,</m:mn>
+                      <m:mrow>
+                        <m:mtext>233</m:mtext>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>9</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>4</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mfrac>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>6</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{1,"233"+9 \(  {  {1}  over  {"10" rSup { size 8{4} } } } + {  {1}  over  {"10" rSup { size 8{5} } } } + {  {1}  over  {"10" rSup { size 8{6} } } } + "."  "."  "."  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>1,</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>233</m:mtext>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mn>9</m:mn>
+                            <m:mrow>
+                              <m:mn>9</m:mn>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {}=1,"233"+ {  {9}  over  {9 cdot "10" rSup { size 8{3} } } } ={}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id6675779">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>1,</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>233</m:mtext>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>1,</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mtext>233</m:mtext>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>0,</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mtext>001</m:mtext>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>1,</m:mn>
+                      </m:mrow>
+                      <m:mtext>234</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {}=1,"233"+ {  {1}  over  {"10" rSup { size 8{3} } } } =1,"233"+0,"001"=1,"234"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id6675886">од каде следува дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,</m:mn><m:mrow><m:mtext>234</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>234000</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>2339999</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,"234"=1,"234000" "."  "."  "." =1,"2339999" "."  "."  "." } {}</m:annotation></m:semantics></m:math> .</para><para id="id6675979">
+          <term/>
+        </para>
+      </section>
+    </section>
+    <section id="id-0997241656417">
+      
+      <section id="id-654779321484">
+        <title>Заклучок</title>
+        <para id="id6676004">За секој реален број постои бесконечна децимална дропка и на секоја бесконечна децимална дропка и одговара еден реален број. Рационалните броеви се изразуваат со периодични, а ирационалните со непериодични децимални дропки.</para>
+        <section id="id-865144426504">
+          <title>Пример 2. </title>
+          <para id="id6676032">За ирационалниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math> важи </para>
+          <para id="id6676088">1,4 &lt; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math> &lt;1,5</para>
+          <para id="id6679292">1,41 &lt; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math> &lt;1,42</para>
+          <para id="id6679353">1,414 &lt; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math>&lt; 1,415</para>
+          <para id="id6679414">1,4142 &lt;
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math> &lt; 1,4143</para>
+          <para id="id6679470">1,41421 &lt; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math> &lt; 1,41422</para>
+          <para id="id6679526">…</para>
+          <para id="id6679530">и за него не постои конечен децимален запис. Децималното претставување на ирационален број се врши со земање на конечен број децимални цифри и отфралање на преостанатите бесконечно многу цифри, што претставува негова приближна вредност. Така приближно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math> може да се запише како
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo stretchy="false">≈</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2}  approx } {}</m:annotation></m:semantics></m:math>1,41 со точност до втората или 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo stretchy="false">≈</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2}  approx } {}</m:annotation></m:semantics></m:math>1,41421 со точност до петата или со точност до триесетидеветтата децимална цифра</para>
+          <para id="id6679729"><m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo stretchy="false">≈</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2}  approx } {}</m:annotation></m:semantics></m:math>1,414213562373095048801688724209698078570.</para>
+        </section>
+        <section id="id-425873315367">
+          <title>Пример 3. </title>
+          <para id="id6679806">Рационалните броеви кои се претставуваат преку бесконечни децимални дропки се секогаш периодични дропки. На пример: </para><para id="id6679820">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>0,</m:mn>
+                        </m:mrow>
+                        <m:mtext>333</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>0,</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3} } =0,"333" "."  "."  "." =0, \( 3 \) } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id6701213"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>7</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>714285</m:mtext><m:mi/><m:mtext>714285</m:mtext><m:mi/><m:mtext>714285</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mi/><m:mo stretchy="false">(</m:mo><m:mtext>714285</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5}  over  {7} } =0,"714285"``"714285"``"714285" "."  "."  "." =0,` \( "714285" \) } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id6701310">Точно е и обратното тврдење: секоја периодична дропка претставува рационален број.</para></section>
+        <section id="id-250291322768">
+          <title>Пример 4. </title>
+          <para id="id6701330">Да се претвори периодичниот децимален број во рационален број. </para>
+          <para id="id6701339">Поаѓајки од</para>
+          <para id="id6701344">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>3,</m:mn>
+                        <m:mtext>45</m:mtext>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mtext>125</m:mtext>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>3,</m:mn>
+                        </m:mrow>
+                        <m:mtext>45125125125</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{3,"45" \( "125" \) =3,"45125125125" "."  "."  "." ={}} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id6701426">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mfrac>
+                                      <m:mtext>45</m:mtext>
+                                      <m:mtext>100</m:mtext>
+                                    </m:mfrac>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mfrac>
+                                    <m:mtext>125</m:mtext>
+                                    <m:msup>
+                                      <m:mtext>10</m:mtext>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>5</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mfrac>
+                                  <m:mtext>125</m:mtext>
+                                  <m:msup>
+                                    <m:mtext>10</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>8</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mtext>125</m:mtext>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mtext>11</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mo stretchy="false">⋯</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {}=3+ {  {"45"}  over  {"100"} } + {  {"125"}  over  {"10" rSup { size 8{5} } } } + {  {"125"}  over  {"10" rSup { size 8{8} } } } + {  {"125"}  over  {"10" rSup { size 8{"11"} } } } + dotsaxis ={}} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id6701568">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mtext>45</m:mtext>
+                                <m:mtext>100</m:mtext>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>125</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>5</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>8</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>11</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mo stretchy="false">⋯</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {}=3+ {  {"45"}  over  {"100"} } +"125" \(  {  {1}  over  {"10" rSup { size 8{5} } } } + {  {1}  over  {"10" rSup { size 8{8} } } } + {  {1}  over  {"10" rSup { size 8{"11"} } } } + dotsaxis  \) ={}} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id6701717">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mtext>45</m:mtext>
+                                <m:mtext>100</m:mtext>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>125</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>5</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:msup>
+                                    <m:mtext>10</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mfrac>
+                                  <m:mtext>45</m:mtext>
+                                  <m:mtext>100</m:mtext>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mtext>125</m:mtext>
+                                <m:mrow>
+                                  <m:mtext>999</m:mtext>
+                                  <m:mo stretchy="false">⋅</m:mo>
+                                  <m:msup>
+                                    <m:mtext>10</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {}=3+ {  {"45"}  over  {"100"} } +"125" {  { {  {1}  over  {"10" rSup { size 8{5} } } } }  over  {1 -  {  {1}  over  {"10" rSup { size 8{3} } } } } } =3+ {  {"45"}  over  {"100"} } + {  {"125"}  over  {"999" cdot "10" rSup { size 8{2} } } } ={}} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id6686561">= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mtext>344655</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>125</m:mtext></m:mrow><m:mtext>99900</m:mtext></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>344780</m:mtext><m:mtext>99900</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"344655"+"125"}  over  {"99900"} } = {  {"344780"}  over  {"99900"} } } {}</m:annotation></m:semantics></m:math></para>
+          <para id="id6686637">се добива дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>3,45</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>125</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>344780</m:mtext><m:mtext>99900</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"3,45" \( "125" \)  = {  {"344780"}  over  {"99900"} } } {}</m:annotation></m:semantics></m:math>.</para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

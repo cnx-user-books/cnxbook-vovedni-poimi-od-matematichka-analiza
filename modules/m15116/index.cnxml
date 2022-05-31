@@ -1,0 +1,334 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Елементи од математичка логика</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15116</md:content-id>
+  <md:title>Елементи од математичка логика</md:title>
+  <md:abstract>Се дефинира логички исказ и основните логички операции</md:abstract>
+  <md:uuid>5f7a3a75-172c-4240-8824-7da36e6ddf95</md:uuid>
+</metadata>
+  <content>
+    <section id="id-20403298514">
+      <title>ЕЛЕМЕНТИ ОД МАТЕМАТИЧКА ЛОГИКА</title>
+      <para id="id8014981">Во математиката, како и во секојдневниот говор, се користат реченици со кои се искажуваат одредени тврдења кои се нарекуваат <term>искази</term>. Исказите може да бидат вистинити или невистинити. Вистинитоста на исказот се означува со симболот T (се чита “те”), а невистинитоста со 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">⊥</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ ortho  ortho } {}</m:annotation></m:semantics></m:math> (се чита “не те”). Исказите се означуваат со малите букви од латиницата, на пр. исказ <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     или исказ <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    . Врз исказите може да се применуваат логички операции и тогаш формираат посложени искази. </para><section id="id-686933708345">
+        <title>Операции со логички искази </title>
+        <para id="id5180512">За логичките искази важат следниве операции:</para>
+        <section id="id-615973744442">
+          <title>Негација</title>
+          <para id="id7216097">Негација на исказот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     e логички исказ со спротивна вистинитосна вредност од онаа на исказот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     и се означува со </para><para id="id9243448"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">¬</m:mo><m:mi>p</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ neg p} {}</m:annotation></m:semantics></m:math> (или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {p}}} {}</m:annotation></m:semantics></m:math>).</para>
+          <para id="id4551109">На пр. ако <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     е вистинит исказ, тогаш 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">¬</m:mo><m:mi>p</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ neg p} {}</m:annotation></m:semantics></m:math> е невистинит и обратно.</para></section>
+        <section id="id-333354520266">
+          <title>Конјункција</title>
+          <para id="id6710540">Операцијата конјункција на два логички искази <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     и <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     се означува со </para><para id="id8873128">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">∧</m:mo>
+                        <m:mi>q</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{p and q} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id9600664">и за неа се користи знакот 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">∧</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ and  and } {}</m:annotation></m:semantics></m:math> кој се чита “и”. Со оваа опе­ра­ција се формира сложен логички исказ кој добива висти­ни­тосна вредност точно ако и само ако и двата искази <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     и <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     имаат вредност точно, а неточно во останатите случаи. </para></section>
+        <section id="id-34747750092">
+          <title>Дисјункција</title>
+          <para id="id9665560">Дисјункција на два логички искази <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     и <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     се означува со</para><para id="id8854316">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">∨</m:mo>
+                        <m:mi>q</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{p or q} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id4525707">а знакот за дисјункција 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">∨</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ or  or } {}</m:annotation></m:semantics></m:math> се чита “или”. Вистинитосната вред­ност на исказ со дисјункција на логички искази има вредност точно ако барем еден од исказите има вредност точно.</para>
+        </section>
+        <section id="id-658500734899">
+          <title>Импликација</title>
+          <para id="id5030248">За логичката операција импликација се користи ознаката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ drarrow } {}</m:annotation></m:semantics></m:math> и сложениот логички исказ со импликација се означува со</para>
+          <para id="id4692512"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">⇒</m:mo><m:mi>q</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p drarrow q} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id6136729">Овој исказ се чита “од <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     следува <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ” или “<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     е последица од <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ”. Вистинитосната вредност на исказ со импликација е неточно ако и само ако <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     е точно а <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     е неточно. </para></section>
+        <section id="id-628194856804">
+          <title>Еквиваленција</title>
+          <para id="id7368658">За операцијата еквиваленција се користи ознаката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">⇔</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ dlrarrow } {}</m:annotation></m:semantics></m:math>. Еквива­ленци­јата на два искази се означува со</para>
+          <para id="id5566623">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">⇔</m:mo>
+                        <m:mi>q</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{p dlrarrow q} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id4963758">и се чита “<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     е еквивалентно со <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ”. Вистинитосна вредност на исказ со еквиваленција е точно ако и само ако двата искази <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     и <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     имаат иста висти­нитосна вредност. Еквиваленцијата означува дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">⇒</m:mo><m:mi>q</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∧</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>q</m:mi><m:mo stretchy="false">⇒</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( p drarrow q \)  and  \( q drarrow p \) } {}</m:annotation></m:semantics></m:math>. </para></section>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,907 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title> Операции со множества</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15119</md:content-id>
+  <md:title> Операции со множества</md:title>
+  <md:abstract>Се дефинираат основните операции со множества и илустрираат со примери</md:abstract>
+  <md:uuid>15dc8931-d969-41b8-a468-6bdde5be9884</md:uuid>
+</metadata>
+  <content>
+    <section id="id-147393993179">
+      <title>ОПЕРАЦИИ СО МНОЖЕСТВА</title>
+      <section id="id-331773766077">
+        <title>Подмножество</title>
+        <para id="id13058020">Нека се дадени две множества A и B. Ако секој елемент од множеството A припаѓа и на множеството B, тогаш мно­жество­то A е <term>подмножество </term><term/>(дел) од B и симболички се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">⊆</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A subseteq B} {}</m:annotation></m:semantics></m:math>. Овој исказ математички се запишува со</para>
+        <para id="id9367830">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">∀</m:mo>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:mo stretchy="false">∈</m:mo>
+                        <m:mi>A</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:mo stretchy="false">∈</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">⇔</m:mo>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mo stretchy="false">⊆</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \(  forall a in A \)  drarrow  \( a in B \)  dlrarrow A subseteq B "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id7959787">Ако постои барем еден елемент од множеството B кој не е елемент на A, множеството A е <term>вистинско </term><term/><term>подмножество </term><term/>од B се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">⊂</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A subset B} {}</m:annotation></m:semantics></m:math> и се запишува со</para>
+        <para id="id9353314">
+          <m:math>
+            <m:semantics>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">∃</m:mo>
+                    <m:mrow>
+                      <m:mi>b</m:mi>
+                      <m:mo stretchy="false">∈</m:mo>
+                      <m:mi>B</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">∧</m:mo>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mtr>
+              </m:mtable>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \(  exists b in B \)  and } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>b</m:mi>
+                        <m:mo stretchy="false">∉</m:mo>
+                        <m:mi>A</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">⇔</m:mo>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mo stretchy="false">⊂</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \( b notin A \)  dlrarrow A subset B "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id13058064">Јасно е дека секое множество A е подмно­жес­тво од самото себе, т.е. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">⊆</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A subseteq A} {}</m:annotation></m:semantics></m:math>. </para>
+      </section>
+      <section id="id-362561143447">
+        <title>Еднаквост на множества</title>
+        <para id="id7510490">Две множества A и B се <term>еднакви</term> ако имаат исти елементи и едаквоста се означува со A=B. Еднаквоста на множествата значи дека сите елементи од множеството A се елементи на множеството B и обратно, сите елементи од множеството B се елементи на множеството A или ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">⊆</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A subseteq B} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">⊆</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B subseteq A} {}</m:annotation></m:semantics></m:math>, тогаш A=B. </para>
+        <para id="id8344495"><term>Нееднаквоста</term><emphasis/>на мо­жествата A и B се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">≠</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A &lt;&gt; B} {}</m:annotation></m:semantics></m:math>.</para>
+      </section>
+      <section id="id-746148031786">
+        <title>Унија на множества </title>
+        <para id="id8753445"><term>Унија</term> на множествата A и B е множество кое се состои од сите елементи кои припаѓаат барем на едно од множествата A или B и се означува </para>
+        <para id="id5030727">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>A</m:mi>
+                          <m:mo stretchy="false">∪</m:mo>
+                          <m:mi>B</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">{</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">∈</m:mo>
+                              <m:mi>A</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">∨</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">∈</m:mo>
+                              <m:mi>B</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">}</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{A union B= lbrace x \lline  \( x in A \)  or  \( x in B \)  rbrace  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10168524">Согласно на горенаведената дефиниција за унија, може да се дефинира унија на конечен број множеста 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,2,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{i} } ,` \( i=1,2, "."  "."  "." ,n \) } {}</m:annotation></m:semantics></m:math> со:</para>
+        <para id="id8156271"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">∪</m:mo>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">∪</m:mo>
+                      <m:mo stretchy="false">…</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">∪</m:mo>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:mo stretchy="false">∪</m:mo>
+                    <m:msubsup>
+                      <m:mrow/>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                      </m:mrow>
+                    </m:msubsup>
+                  </m:mrow>
+                </m:mrow>
+                <m:msub>
+                  <m:mi>A</m:mi>
+                  <m:mrow>
+                    <m:mi>i</m:mi>
+                  </m:mrow>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} }  union A rSub { size 8{2} }  union  dotslow  union A rSub { size 8{n} } =` union { {} rSub { size 8{i=1} }  rSup { size 8{n} } } A rSub { size 8{i} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></para><para id="id10990240">или унија на бесконечен број множества 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,2,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{i} } ,` \( i=1,2, "."  "."  "."  \) } {}</m:annotation></m:semantics></m:math> со:</para>
+        <para id="id8721484"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>A</m:mi>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">∪</m:mo>
+                          <m:msub>
+                            <m:mi>A</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">∪</m:mo>
+                        <m:mo stretchy="false">…</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">∪</m:mo>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">∪</m:mo>
+                    <m:mo stretchy="false">…</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:mo stretchy="false">∪</m:mo>
+                    <m:msubsup>
+                      <m:mrow/>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                    </m:msubsup>
+                  </m:mrow>
+                </m:mrow>
+                <m:msub>
+                  <m:mi>A</m:mi>
+                  <m:mrow>
+                    <m:mi>i</m:mi>
+                  </m:mrow>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} }  union A rSub { size 8{2} }  union  dotslow  union A rSub { size 8{i} }  union  dotslow =` union { {} rSub { size 8{i=1} }  rSup { size 8{ infinity } } } A rSub { size 8{i} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="id10990228"><term>Пример</term>
+          <term> 1</term>
+          <term>. </term>
+        </para>
+        <para id="id6001654">Нека се дадени три множества 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>c</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } = lbrace a,b,c rbrace ,``A rSub { size 8{2} } = lbrace a,1,2 rbrace ,`} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>x</m:mi><m:mi>,</m:mi><m:mn>1,3</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`A rSub { size 8{3} } = lbrace a,x,1,3 rbrace } {}</m:annotation></m:semantics></m:math>. </para>
+        <para id="id10184862">Унијата на овие множества е</para>
+        <para id="id7158536">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">∪</m:mo>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">∪</m:mo>
+                          <m:msub>
+                            <m:mi>A</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">{</m:mo>
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mi>b</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mi>c</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mi>x</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mn>1,2,3</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">}</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} }  union A rSub { size 8{2} }  union A rSub { size 8{3} } = lbrace a,b,c,x,1,2,3 rbrace  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </section>
+      <section id="id-644025560001">
+        <title>Пресек на множества</title>
+        <para id="id8628435"><term>Пресек</term> на множествата A и B е множество кое се состои од заедничките елементи на множествата A и B и се означува со:</para>
+        <para id="id10323515">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>A</m:mi>
+                          <m:mo stretchy="false">∩</m:mo>
+                          <m:mi>B</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">{</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">∈</m:mo>
+                              <m:mi>A</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">∧</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">∈</m:mo>
+                              <m:mi>B</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">}</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{A intersection B= lbrace x \lline  \( x in A \)  and  \( x in B \)  rbrace  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id8004816">Пресекот на конечен број множества 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,2,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{i} } ,` \( i=1,2, "."  "."  "." ,n \) } {}</m:annotation></m:semantics></m:math>се дефини­ра со:</para>
+        <para id="id7698573"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">∩</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi/>
+                  <m:mo stretchy="false">∩</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mo stretchy="false">…</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:mo stretchy="false">∩</m:mo>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:msubsup>
+                      <m:mo stretchy="false">∩</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                      </m:mrow>
+                    </m:msubsup>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} }  intersection A rSub { size 8{2} } ` intersection A rSub { size 8{3} }  dotslow ` intersection A rSub { size 8{i} } =` intersection  rSub { size 8{i=1} }  rSup { size 8{n} } A rSub { size 8{i} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="id10293386">додека пресекот на бесконечен број множества 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,2,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{i} } ,` \( i=1,2, "."  "."  "."  \) } {}</m:annotation></m:semantics></m:math> се дефинира со:</para>
+        <para id="id8260702"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">∩</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi/>
+                  <m:mo stretchy="false">∩</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mo stretchy="false">…</m:mo>
+                <m:mrow>
+                  <m:mi/>
+                  <m:mo stretchy="false">∩</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mi>i</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:mo stretchy="false">∩</m:mo>
+                    <m:mo stretchy="false">…</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:msubsup>
+                      <m:mo stretchy="false">∩</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                    </m:msubsup>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} }  intersection A rSub { size 8{2} } ` intersection A rSub { size 8{3} }  dotslow ` intersection A rSub { size 8{i} } ` intersection  dotslow =` intersection  rSub { size 8{i=1} }  rSup { size 8{ infinity } } A rSub { size 8{i} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></para><para id="id7606056">
+          <term>Пример</term>
+          <term> 2</term>
+          <term>. </term>
+        </para>
+        <para id="id8221403">За множествата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>c</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>x</m:mi><m:mi>,</m:mi><m:mn>1,3</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } = lbrace a,b,c rbrace ,``A rSub { size 8{2} } = lbrace a,1,2 rbrace ,`A rSub { size 8{3} } = lbrace a,x,1,3 rbrace } {}</m:annotation></m:semantics></m:math> пресекот е</para>
+        <para id="id9593343">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">∩</m:mo>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">∩</m:mo>
+                          <m:msub>
+                            <m:mi>A</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">{</m:mo>
+                          <m:mi>a</m:mi>
+                          <m:mo stretchy="false">}</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} }  intersection A rSub { size 8{2} }  intersection A rSub { size 8{3} } = lbrace a rbrace  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </section>
+      <section id="id-498180521558">
+        <title>Разлика на множества</title>
+        <para id="id7536649"><term>Разлика </term>на множествата A и B се означува со A \ B и тоа е множество кое се состои од елементи кои припаѓаат на множеството A а не припаѓаат на множеството B, односно</para>
+        <para id="id7614243">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>A\B</m:mtext>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">{</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">∈</m:mo>
+                              <m:mi>A</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">∧</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">∉</m:mo>
+                              <m:mi>B</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">}</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"A\B"= lbrace x \lline  \( x in A \)  and  \( x notin B \)  rbrace  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10430628">
+          <term>Пример</term>
+          <term> 3</term>
+          <term>.</term>
+        </para>
+        <para id="id8733793">За множествата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>c</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= lbrace a,b,c rbrace ,``B= lbrace a,1,2 rbrace } {}</m:annotation></m:semantics></m:math> разликата е</para>
+        <para id="id7169970">A \ B=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>c</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace b,c rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id8372609">Ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">⊆</m:mo><m:mi>X</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B subseteq X} {}</m:annotation></m:semantics></m:math>, тогаш множеството X \ B се нарекува <term>комплемент</term> на множество­то B и се означува со 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{X\B=C rSub { size 8{X} } B= { bar  {B}} "." } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id7281993">
+          <term>Пример</term>
+          <term> 4</term>
+          <term>. </term>
+        </para>
+        <para id="id9692721">За бесконечните множества од реални броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>0,5</m:mn><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mn>1,6</m:mn><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= \( 0,5 \) ,``B= \[ 1,6 \] } {}</m:annotation></m:semantics></m:math>, односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= lbrace x \lline 0&lt;x&lt;5 rbrace } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B= lbrace x \lline 1 &lt;= x &lt;= 6 rbrace } {}</m:annotation></m:semantics></m:math> ќе важи: </para>
+        <para id="id10300822"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">∪</m:mo><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A union B= lbrace x \lline 0&lt;x &lt;= 6 rbrace } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id9695136"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">∩</m:mo><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A intersection B= lbrace x \lline 1 &lt;= x&lt;5 rbrace } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id9564817"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>A\B</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"A\B"= lbrace x \lline 0&lt;x&lt;1 rbrace } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id8156249"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>B\A</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"B\A"= lbrace x \lline 5 &lt;= x &lt;= 6 rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+      </section>
+      <section id="id-817673116628">
+        <title>Производ на множества</title>
+        <para id="id7352062"><term>Производ </term><term/>на две множества A и B се дефинира со:</para>
+        <para id="id7614257"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">×</m:mo><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>A</m:mi></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>B</m:mi></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A times B= lbrace  \( a,b \)  \lline a in A,b in B rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id9631957">Овој производ се нарекува уште и Декартов производ и неговите елементи се подредени парови на елементи во кои првиот елемент од парот припаѓа на првото, а вториот елемент на второто множество од производот.</para>
+        <para id="id10328173">
+          <term>Пример</term>
+          <term> 5</term>
+          <term>. </term>
+        </para>
+        <para id="id6578209">За множествата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>c</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= lbrace a,b,c rbrace ,``B= lbrace a,1,2 rbrace } {}</m:annotation></m:semantics></m:math> производот е:</para>
+        <para id="id7168410">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>A</m:mi>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mi>B</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">{</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>a</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mi>a</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>a</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>a</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mn>2</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>b</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mi>a</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>b</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>b</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mn>2</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>c</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mi>a</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>c</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>,</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>c</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mn>2</m:mn>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">}</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{A times B= lbrace  \( a,a \) , \( a,1 \) , \( a,2 \) , \( b,a \) , \( b,1 \) , \( b,2 \) , \( c,a \) , \( c,1 \) , \( c,2 \)  rbrace  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id7172924">
+          <term>Пример</term>
+          <term> 6</term>
+          <term>.</term>
+        </para>
+        <para id="id9827998">Ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= lbrace x \lline 1 &lt;= x &lt;= 4 rbrace } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B= lbrace y \lline 2 &lt;= y &lt;= 6 rbrace } {}</m:annotation></m:semantics></m:math>, тогаш:</para>
+        <para id="id5030722">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">{</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mi>,</m:mi>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">≤</m:mo>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">≤</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">∧</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">≤</m:mo>
+                              <m:mi>y</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">≤</m:mo>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">}</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{A times B= lbrace  \( x,y \)  \lline  \( 1 &lt;= x &lt;= 4 \)  and  \( 2 &lt;= y &lt;= 6 \)  rbrace } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id7829124">и геометриски претставува множество на внатрешни и грани­чни точки од правоаголникот ограничен со правите: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mi/><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4,</m:mn></m:mrow><m:mi/><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mi/><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1, `x=4, `y=2, `y=6} {}</m:annotation></m:semantics></m:math>. </para>
+      </section>
+    </section>
+  </content>
+</document>
