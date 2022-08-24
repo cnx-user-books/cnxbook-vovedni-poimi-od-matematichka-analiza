@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk" authors="Liljana Stefanovska">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col10475</md:content-id>
-    <md:title>Воведни поими од математичка анализа</md:title>
+    <md:title>&#x412;&#x43E;&#x432;&#x435;&#x434;&#x43D;&#x438; &#x43F;&#x43E;&#x438;&#x43C;&#x438; &#x43E;&#x434; &#x43C;&#x430;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x43A;&#x430; &#x430;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x430;</md:title>
     <md:language>mk</md:language>
     <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
     <md:uuid>d8cc28f0-7c3f-4ed7-ad83-c0ab21b407ac</md:uuid>
-<md:slug>vovedni-poimi-od-matematichka-analiza</md:slug>
-</metadata>
+    <md:slug>vovedni-poimi-od-matematichka-analiza</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m15116"/>
     <col:module document="m15118"/>
