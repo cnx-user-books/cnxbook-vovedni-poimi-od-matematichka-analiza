@@ -59,7 +59,7 @@
             <m:semantics>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mo stretchy="false">(</m:mo>
                     <m:mo stretchy="false">∃</m:mo>
                     <m:mrow>
@@ -73,7 +73,7 @@
                       <m:mrow/>
                     </m:mrow>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
                   <m:mstyle fontsize="12pt">
@@ -721,7 +721,7 @@
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>c</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace b,c rbrace } {}</m:annotation></m:semantics></m:math>.</para>
         <para id="id8372609">Ако 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">⊆</m:mo><m:mi>X</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B subseteq X} {}</m:annotation></m:semantics></m:math>, тогаш множеството X \ B се нарекува <term>комплемент</term> на множество­то B и се означува со 
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{X\B=C rSub { size 8{X} } B= { bar  {B}} "." } {}</m:annotation></m:semantics></m:math></para>
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd/></m:mtr><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{X\B=C rSub { size 8{X} } B= { bar  {B}} "." } {}</m:annotation></m:semantics></m:math></para>
         <para id="id7281993">
           <term>Пример</term>
           <term> 4</term>

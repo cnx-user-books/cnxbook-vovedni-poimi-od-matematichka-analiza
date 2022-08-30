@@ -10,7 +10,7 @@
     <section id="id-20403298514">
       <title>ЕЛЕМЕНТИ ОД МАТЕМАТИЧКА ЛОГИКА</title>
       <para id="id8014981">Во математиката, како и во секојдневниот говор, се користат реченици со кои се искажуваат одредени тврдења кои се нарекуваат <term>искази</term>. Исказите може да бидат вистинити или невистинити. Вистинитоста на исказот се означува со симболот T (се чита “те”), а невистинитоста со 
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">⊥</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ ortho  ortho } {}</m:annotation></m:semantics></m:math> (се чита “не те”). Исказите се означуваат со малите букви од латиницата, на пр. исказ <m:math>
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow/><m:mo stretchy="false">⊥</m:mo><m:mrow/></m:mrow><m:mrow/></m:mtd></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ ortho  ortho } {}</m:annotation></m:semantics></m:math> (се чита “не те”). Исказите се означуваат со малите букви од латиницата, на пр. исказ <m:math>
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -118,7 +118,7 @@
             </m:math>
           </para>
           <para id="id9600664">и за неа се користи знакот 
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">∧</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ and  and } {}</m:annotation></m:semantics></m:math> кој се чита “и”. Со оваа опе­ра­ција се формира сложен логички исказ кој добива висти­ни­тосна вредност точно ако и само ако и двата искази <m:math>
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow/><m:mo stretchy="false">∧</m:mo><m:mrow/></m:mrow><m:mrow/></m:mtd></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ and  and } {}</m:annotation></m:semantics></m:math> кој се чита “и”. Со оваа опе­ра­ција се формира сложен логички исказ кој добива висти­ни­тосна вредност точно ако и само ако и двата искази <m:math>
         <m:semantics>
           <m:mrow>
             <m:mrow>
@@ -185,7 +185,7 @@
             </m:math>
           </para>
           <para id="id4525707">а знакот за дисјункција 
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">∨</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ or  or } {}</m:annotation></m:semantics></m:math> се чита “или”. Вистинитосната вред­ност на исказ со дисјункција на логички искази има вредност точно ако барем еден од исказите има вредност точно.</para>
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow/><m:mo stretchy="false">∨</m:mo><m:mrow/></m:mrow><m:mrow/></m:mtd></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{ or  or } {}</m:annotation></m:semantics></m:math> се чита “или”. Вистинитосната вред­ност на исказ со дисјункција на логички искази има вредност точно ако барем еден од исказите има вредност точно.</para>
         </section>
         <section id="id-658500734899">
           <title>Импликација</title>
